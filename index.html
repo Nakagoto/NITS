@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NITS</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="parentContainer">
+
+    <img
+        id="background"
+        src="images/hide_1.png"
+        alt="background">
+
+    <!-- 本時 / 次は -->
+
+    <div id="modeLabel">
+        本時
+    </div>
+
+    <!-- 教科表示 -->
+
+    <div id="subjectArea">
+
+        <div id="subjectName"></div>
+
+    </div>
+
+    <!-- クラス情報 -->
+
+    <div id="classInfo">
+
+        1年1組 Aコース
+
+    </div>
+
+    <!-- お知らせエリア -->
+
+    <div id="noticeArea">
+
+        <!-- テキスト広告 -->
+
+        <div id="noticeText"></div>
+
+        <!-- 画像広告 -->
+
+        <img
+            id="noticeImage"
+            src=""
+            alt="advertisement">
+
+        <!-- 動画広告（将来用） -->
+
+        <video
+            id="noticeVideo"
+            autoplay
+            muted
+            loop
+            playsinline>
+        </video>
+
+    </div>
+
+</div>
+
+<script
+    type="module"
+    src="script.js">
+</script>
+
+</body>
+</html>

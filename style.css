@@ -1,0 +1,196 @@
+html,
+body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    background:#000;
+}
+
+#parentContainer{
+    position:absolute;
+    width:1920px;
+    height:1279px;
+    left:50%;
+    top:50%;
+    transform-origin:center center;
+    overflow:hidden;
+}
+
+#background{
+    position:absolute;
+    left:0;
+    top:0;
+    width:1920px;
+    height:1279px;
+    user-select:none;
+    pointer-events:none;
+}
+
+/* 本時 / 次は */
+
+#modeLabel{
+    position:absolute;
+    left:12.8px;
+    top:35.1px;
+    width:80.6px;
+    height:134.5px;
+
+    color:#ffffff;
+
+    font-family:
+        "Noto Sans JP",
+        sans-serif;
+
+    font-weight:400;
+    font-size:60px;
+    line-height:1.1;
+
+    writing-mode:vertical-rl;
+    text-orientation:upright;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    white-space:nowrap;
+}
+
+/* 教科表示エリア */
+
+#subjectArea{
+    position:absolute;
+
+    left:128px;
+    top:9.5px;
+
+    width:1772px;
+    height:206px;
+
+    overflow:hidden;
+}
+
+/* 教科名 */
+
+#subjectName{
+    position:absolute;
+
+    top:13px;
+
+    color:#ffffff;
+
+    font-family:
+        "Noto Sans JP",
+        sans-serif;
+
+    font-weight:400;
+    font-size:180px;
+    line-height:180px;
+
+    white-space:nowrap;
+
+    will-change:transform;
+}
+
+/* クラス情報 */
+
+#classInfo{
+    position:absolute;
+
+    left:1275.5px;
+    top:233.2px;
+
+    width:624.3px;
+    height:52.1px;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+
+    color:#ffffff;
+
+    font-family:
+        "Noto Sans JP",
+        sans-serif;
+
+    font-size:42px;
+
+    white-space:nowrap;
+}
+
+/* お知らせエリア */
+
+#noticeArea{
+    position:absolute;
+
+    left:0;
+    top:290px;
+
+    width:1920px;
+    height:988px;
+
+    background:#000000;
+
+    overflow:hidden;
+}
+
+/* テキスト広告 */
+
+#noticeText{
+    position:absolute;
+
+    left:20.2px;
+    top:12.3px;
+
+    width:1879.6px;
+    height:934.9px;
+
+    color:#ffffff;
+
+    font-family:
+        "Noto Sans JP",
+        sans-serif;
+
+    font-weight:400;
+    font-size:80px;
+    line-height:1.4;
+
+    word-break:break-word;
+
+    overflow:hidden;
+
+    display:block;
+}
+
+/* 画像広告 */
+
+#noticeImage{
+    position:absolute;
+
+    left:0;
+    top:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:contain;
+
+    display:none;
+}
+
+/* 将来の動画広告用 */
+
+#noticeVideo{
+    position:absolute;
+
+    left:0;
+    top:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:contain;
+
+    display:none;
+}
